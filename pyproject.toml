@@ -20,7 +20,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.10.4"
 
 [tool.poetry.group.test.dependencies]
 mypy = "^0.982"
@@ -45,6 +45,15 @@ sphinx-autodoc-typehints = "^1.19"
 m2r2 = "^0.3"
 tomli = "^2.0"
 
+
+
+
+[tool.poetry.group.pandas.dependencies]
+pandas = "^1.5.1"
+
+
+[tool.poetry.group.selenium.dependencies]
+selenium = "^4.5.0"
 
 [build-system]
 requires = ["poetry-core>=1.2.0"]
